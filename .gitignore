@@ -39,7 +39,9 @@ pids
 .DS_Store
 
 # Simulated data files
-*.csv
+# *.csv
+!kano_simulated_data.csv
+!fuzzy_ahp_simulated_data.csv
 
 # IDE files (optional)
 .idea/
