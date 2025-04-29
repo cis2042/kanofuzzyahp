@@ -18,7 +18,7 @@
         <div class="input-section">
             <h3>Kano 模型問卷資料</h3>
             <p>請上傳 CSV 檔案。每一列代表一位參與者，欄位需包含每個特性的功能性(Functional)與非功能性(Dysfunctional)問題回覆 (使用 1-5 對應 "喜歡", "理所當然", "無所謂", "可以忍受", "不喜歡")。</p>
-            <p>預期欄位範例： participant_id, decentralization_func, decentralization_dysfunc, data_ownership_func, data_ownership_dysfunc, ...</p>
+            <p>預期欄位範例： participant_id, decentralization_func, decentralization_dysfunc, data_ownership_func, data_ownership_dysfunc, ... (<a href="kano_example.csv" download>下載範例格式</a>)</p>
             <input type="file" id="kano-file" accept=".csv" aria-label="Kano Model Data CSV Upload">
             <button id="calculate-kano">計算 Kano 結果</button>
             <div id="kano-status"></div>
@@ -27,7 +27,7 @@
         <div class="input-section">
             <h3>Fuzzy AHP 問卷資料</h3>
             <p>請上傳 CSV 檔案。每一列代表一位參與者，欄位需包含所有成對比較結果 (使用 1-9 Saaty 量表)。</p>
-            <p>預期欄位範例： participant_id, C1_vs_C2, C1_vs_C3, ..., C11_vs_C12 (Ci 代表第 i 個特性)</p>
+            <p>預期欄位範例： participant_id, C1_vs_C2, C1_vs_C3, ..., C11_vs_C12 (Ci 代表第 i 個特性) (<a href="fuzzy_ahp_example.csv" download>下載範例格式</a>)</p>
             <input type="file" id="fuzzy-ahp-file" accept=".csv" aria-label="Fuzzy AHP Data CSV Upload">
             <button id="calculate-fuzzy-ahp">計算 Fuzzy AHP 權重</button>
             <div id="fuzzy-ahp-status"></div>
